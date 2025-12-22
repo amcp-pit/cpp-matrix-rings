@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Test 1 ",
+      "setup": "",
+      "run": "timeout 1 ./rings 1 out.txt && cmp out.txt tests/matrix1.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "timeout 1 ./rings 2 out.txt && cmp out.txt tests/matrix2.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "timeout 1 ./rings 3 out.txt && cmp out.txt tests/matrix3.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "timeout 1 ./rings 10 out.txt && cmp out.txt tests/matrix10.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "timeout 1 ./rings 100 out.txt && cmp out.txt tests/matrix100.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
